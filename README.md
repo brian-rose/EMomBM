@@ -44,20 +44,20 @@ I was able to compile and run this code with gfortran on several different machi
 
 ### MATLAB time-stepping code files
 
-- computeku.m
-- current_diagnostics.m
-- EMomBM.m
-- fastSolveU.m
-- final_diagnostics.m
-- fluxes.m
-- heating.m
-- iceline_qg.m
-- Kvectors.m
-- marshallY.m
-- noflow.m
-- pvflux.m
-- stress.m
-- temperature.m
+- `computeku.m`
+- `current_diagnostics.m`
+- `EMomBM.m`
+- `fastSolveU.m`
+- `final_diagnostics.m`
+- `fluxes.m`
+- `heating.m`
+- `iceline_qg.m`
+- `Kvectors.m`
+- `marshallY.m`
+- `noflow.m`
+- `pvflux.m`
+- `stress.m`
+- `temperature.m`
 
 Try just running `iceline_qg` at the MATLAB prompt.
 
