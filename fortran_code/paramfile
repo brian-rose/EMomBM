@@ -1,0 +1,65 @@
+&commonparam
+	pi = 3.14159265358979323846,
+	a = 6.373E6,
+	delt = 2.592E5,
+	Tf = -10.,
+	S0 = 1367.,
+	s2 = -0.48,
+	ai = 0.38,
+	a0 = 0.7,
+	a2 = -0.078,
+	Aup = 238.,
+	Bup = 15.,
+	Aout = 218.,
+	Bout = 1.7,
+	Ca = 1.E7,
+	Co = 1.E7,
+	numsteps = 1000,
+	inputfilename = 'input.dat',
+	readInputFile = .FALSE.,
+&end
+
+&iceparam
+	Li = 3.E8,
+	ki = 2.,
+&end
+
+&twolevelparam
+	constflag = .TRUE.,
+	readKoFile = .FALSE.,
+	readKaFile = .FALSE.,
+	KoAdjFactor = 1.,
+	KaAdjFactor = 1.,
+	constKa = 2.7E6,
+	constKo = 5.2E5,
+	Kofilename = 'Ko_twolevel.dat',
+	Kafilename = 'Ka_twolevel.dat',
+&end
+
+&emombmparam
+	f0 = 1.0E-4,
+	p0 = 1.E5,
+	R = 287.,
+	g = 9.8,
+	eps = 0.04,
+	Ld = 5.E5,
+	smallkl = 6.0E6,
+	mu = 350.,
+&end
+
+&icelineparam
+	S0file = 'S0array.dat',
+	outputfile = 'iceline_output.dat',
+	iceoutfile = 'ice.dat',
+	maxS0 = 1400.,
+	minS0 = 1174.,
+	deltaS0 = 1.,
+&end
+
+&varForcingparam
+	minAout = 212.,
+	maxAout = 218.,
+	AoutPeriod = 200.,
+	totalTime = 600.,
+	saveInterval = 4.,
+&end
